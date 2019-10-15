@@ -20,4 +20,5 @@ To use on Windows, create an executable using pyinstaller
 
 Useful PyInstaller Options:
 > -w removes pop up windows
+>
 > -F outputs a portable .exe file in the ./dist/ folder
