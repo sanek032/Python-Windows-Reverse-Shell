@@ -12,7 +12,9 @@ Modified for a less fragile shell and a check for sandbox
 To use on Windows, create an executable using pyinstaller
 
 python -m pip install pyinstaller
+
 pyinstaller -wF ./reverse_shell.py
+
 
 -w removes pop up windows
 -F outputs a portable .exe file in the ./dist/ folder
